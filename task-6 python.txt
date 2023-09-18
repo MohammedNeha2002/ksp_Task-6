@@ -1,0 +1,84 @@
+print("this is print statement")
+
+x=1
+
+for x in range(1,10):
+    
+	print(x)
+
+a=12
+
+b=34
+
+if a>=b:
+    
+	print("A is the largest number ")
+
+else:
+    
+	print("B is the largest number")
+c="Neha"
+
+d=23.5
+
+e=45
+
+variable="Mohammed Neha"
+
+var_1=23
+
+g=3j+1
+
+print(type(c))
+
+print(type(e))
+
+print(type(g))
+
+print(type(var_1))
+
+print(type(variable))
+
+s = '50'
+
+n = int(s)
+
+print(n)
+
+print(type(n))
+
+f =float(s)
+
+print(f)
+
+print(type(f))
+
+m=("my name is Mohammed Neha")
+
+n=("my favorite animal is Dog")
+
+print(m.upper())
+
+print(n.lower())
+
+print(m.title())
+
+print(n.find(s))
+
+print(m.islower())
+
+print(m+n)
+
+def add_numbers(a,b):
+
+	sum=a+b
+
+	print('Sum:',sum)
+
+add_numbers(2,3)
+
+def add_numbers( a = 7,  b = 8):
+
+	sum = a + b
+ 
+	print('Sum:', sum)
